@@ -1,0 +1,31 @@
+﻿Functions 
+* Functions are like a mini-program inside your program.
+* The main point of functions is to get rid of duplicate code
+* The def statement defines a function.
+* The input to functions are arguments. The output is the return value.
+* The parameters are the variables in between the function’s parentheses in the def statement.
+* The return value is specified using the return statement.
+* Every function has a return value. If your function doesnt have a return statement, the default return value is None.
+* Keyword arguments to functions are usually for optional arguments. The print() function has keyword arguments end and sep.
+
+
+Global and local Scopes
+* Python Variables inside of a function can have the same name as a variable outside of the function, BUT they are considered 2 separate variables.
+* Parameters and variables that are assigned in a function are to exist in that functions local scope 
+* variable that are assigned outside all funcitons are said to exist in the global scope 
+* scope covers an area of the source code.
+* Any given line in your program is in the global scope or a local scope
+* Each function has its own local scope
+* Local Variables in local scope, Global Variables in global scope
+* Think of Scope as a container of variables 
+* The variable cat be both local and global, scope is a container of variables. 
+* Global scope is created when the program starts and is destroyed when the program terminates 
+* Local scope is created whenever a function is called and all the variables just assigned during this function call exist within the local scope, when the function returns the local scope is destroyed, and the variables are forgotten.
+* Think of variables inside of a function as being temporary. 
+   * 1. Code in the global scope cannot use any local variables.
+      * Local variables cannot be used in global scope 
+   * 2. Code in a local scope can access global variable.
+   * 3. Code in one function’s local scope cannot use variables in another funcitons local scope.
+   * 4. You can use the same name for different variables if they are in different scopes
+   * Global scope for global variables is created when the program starts and destroyed when the program ends 
+   * Local scope for a local variable is created when the function is called and destroyed when the function returns.
